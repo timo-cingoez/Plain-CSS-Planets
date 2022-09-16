@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #191724;
+    overflow-x: hidden;
 }
 
 .planets-container {
@@ -191,137 +192,137 @@ body {
 
 @keyframes firstPlanetRender {
     0% {
-        background: linear-gradient(-90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(-90deg, #C38977 50%, #986B61 50%);
     }
 
     12% {
-        background: linear-gradient(-90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(-90deg, #C38977 50%, #986B61 50%);
     }
 
     12.1% {
-        background: linear-gradient(90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(90deg, #C38977 50%, #986B61 50%);
     }
 
     62% {
-        background: linear-gradient(90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(90deg, #C38977 50%, #986B61 50%);
     }
 
     62.1% {
-        background: linear-gradient(-90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(-90deg, #C38977 50%, #986B61 50%);
     }
 
     100% {
-        background: linear-gradient(-90deg, rgb(86, 86, 253) 50%, rgb(60, 60, 175) 50%);
+        background: linear-gradient(-90deg, #C38977 50%, #986B61 50%);
     }
 }
 
 @keyframes firstPlanetRenderRotater {
     0% {
         transform: scaleX(0.2);
-        background-color: rgb(86, 86, 253);
+        background-color: #C38977;
     }
 
     12% {
         transform: scaleX(1);
-        background-color: rgb(86, 86, 253);
+        background-color: #C38977;
     }
 
     37% {
         transform: scaleX(0);
-        background-color: rgb(86, 86, 253);
+        background-color: #C38977;
     }
 
     37.1% {
         transform: scaleX(0);
-        background-color: rgb(60, 60, 175);
+        background-color: #986B61;
     }
 
     62% {
         transform: scaleX(1);
-        background-color: rgb(60, 60, 175);
+        background-color: #986B61;
     }
 
     87% {
         transform: scaleX(0);
-        background-color: rgb(60, 60, 175);
+        background-color: #986B61;
     }
 
     87.1% {
         transform: scaleX(0);
-        background-color: rgb(86, 86, 253);
+        background-color: #C38977;
     }
 
     100% {
         transform: scaleX(0.2);
-        background-color: rgb(86, 86, 253);
+        background-color: #C38977;
     }
 }
 
 @keyframes secondPlanetRender {
     0% {
-        background: linear-gradient(90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(90deg, #76ABDF 50%, #4B61D1 50%);
     }
 
     40% {
-        background: linear-gradient(90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(90deg, #76ABDF 50%, #4B61D1 50%);
     }
 
     40.1% {
-        background: linear-gradient(-90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(-90deg, #76ABDF 50%, #4B61D1 50%);
     }
 
     90% {
-        background: linear-gradient(-90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(-90deg, #76ABDF 50%, #4B61D1 50%);
     }
 
     90.1% {
-        background: linear-gradient(90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(90deg, #76ABDF 50%, #4B61D1 50%);
     }
 
     100% {
-        background: linear-gradient(90deg, rgb(95, 185, 95) 50%, rgb(65, 128, 65) 50%);
+        background: linear-gradient(90deg, #76ABDF 50%, #4B61D1 50%);
     }
 }
 
 @keyframes secondPlanetRenderRotater {
     0% {
         transform: scaleX(0.5);
-        background-color: rgb(95, 185, 95);
+        background-color: #76ABDF;
     }
 
     15% {
         transform: scaleX(0);
-        background-color: rgb(95, 185, 95);
+        background-color: #76ABDF;
     }
 
     15.1% {
         transform: scaleX(0);
-        background-color: rgb(65, 128, 65);
+        background-color: #4B61D1;
     }
 
     40% {
         transform: scaleX(1);
-        background-color: rgb(65, 128, 65);
+        background-color: #4B61D1;
     }
 
     65% {
         transform: scaleX(0);
-        background-color: rgb(65, 128, 65);
+        background-color: #4B61D1;
     }
 
     65.1% {
         transform: scaleX(0);
-        background-color: rgb(95, 185, 95);
+        background-color: #76ABDF;
     }
 
     90% {
         transform: scaleX(1);
-        background-color: rgb(95, 185, 95);
+        background-color: #76ABDF;
     }
 
     100% {
         transform: scaleX(0.5);
-        background-color: rgb(95, 185, 95);
+        background-color: #76ABDF;
     }
 }
 
